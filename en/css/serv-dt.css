@@ -1,0 +1,515 @@
+/*---------------------------------------
+  SERVICES DETAIL PAGE STYLE                
+-----------------------------------------*/
+.s-header {
+	height: 75vh;
+	background: url('../img/pages-pictures/service-bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	overflow-x: hidden!important;
+}
+.s-header-shapee {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.s-header .middle-c {
+    top: 50%;
+}
+.s-header .middle-c .capt h1 {
+  font-family: 'Poppins', sans-serif;
+}
+.serv-cont .ab-pic {
+  position: relative;
+  overflow: hidden;
+}
+.serv-cont .ab-pic .over-pic {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  left: 15px;
+  bottom: 0;
+}
+.serv-cont .ab-pic .over-pic .ab-info {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF;
+}
+.serv-cont .ab-pic .over-pic .ab-info span {
+  font-size: 70px;
+  line-height: 75px;
+  margin-bottom: 5px;
+  display: block;
+}
+.serv-cont .ab-pic .over-pic .ab-info span:before {
+  content: '+';
+}
+.serv-cont .ab-pic .over-pic .ab-info p {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.serv-cont .ab-cont {
+  padding-left: 50px;
+}
+.serv-cont .ab-cont h3 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+.serv-cont .ab-cont h3 span {
+  font-family: 'Poppins', sans-serif;
+}
+.serv-cont .ab-cont p {
+  font-weight: 400;
+  color: #666;
+  font-size: 13.5px;
+  margin-bottom: 20px;
+}
+.serv-cont .fun-facts {
+  margin-top: 20px;
+  display: block;
+  padding: 0;
+}
+.serv-cont .fun-facts .fact-item:first-child {
+  padding-left: 0;
+}
+.serv-cont .fun-facts .count {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 50px;
+  display: block;
+  margin-bottom: 10px;
+}
+.serv-cont .fun-facts h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #1c1c1c;
+  font-size: 13.5px;
+}
+.serv-cont .more-sev {
+	margin-top: 60px;
+}
+.serv-cont .more-sev h4 {
+  font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	margin-bottom: 15px;
+	color: #f36c21;
+}
+.serv-cont .more-sev p {
+	font-weight:400;
+}
+.work-st {
+  background-color: #f2f4ec;
+}
+.work-st .left-s {
+  margin-top: 120px;
+}
+.work-st .left-s h4 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+.work-st .left-s h4 span {
+  font-family: 'Poppins', sans-serif;
+}
+.work-st .left-s p {
+  font-weight: 400;
+  color: #555;
+  font-size: 13.5px;
+}
+.work-st .work-scon {
+  padding-left: 100px;
+}
+.work-st .work-scon .step-box {
+  -moz-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  background-color: #FFF;
+  padding: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.work-st .work-scon .step-box:last-child {
+  margin-bottom: 0;
+}
+.work-st .work-scon .step-box .numb {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  -webkit-transform: translate(0,-50%);
+  -moz-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  -o-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  z-index: 1;
+}
+.work-st .work-scon .step-box .numb span {
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #FFF;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  -ms-transition: all .3s;
+  display: inline-block;
+  font-size: 28px;
+  text-align: center;
+   font-family: 'Poppins', sans-serif;
+  float: right;
+}
+.work-st .work-scon .step-box .step-info {
+  margin-left: 95px;
+}
+.work-st .work-scon .step-box .step-info h4 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  font-size: 16px;
+  z-index: 1;
+  position: relative;
+}
+.work-st .work-scon .step-box .step-info p {
+  color: #777;
+  font-size: 13.3px;
+  font-weight: 400;
+  z-index: 1;
+  position: relative;
+}
+.work-st .work-scon .step-box:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  opacity: 0;
+  z-index: 0;
+}
+.work-st .work-scon .step-box:hover::after {
+  opacity: 1;
+}
+.work-st .work-scon .step-box:hover h4,
+.work-st .work-scon .step-box:hover p {
+  color: #FFF;
+}
+.work-st .work-scon .step-box:hover .numb span {
+  background: #FFF;
+}
+.work-st .work-scon .step-box .numb span {
+  background: #f36c21;
+  background: -webkit-linear-gradient(to right, ##f47321, ##e0456f);
+  background: -moz-linear-gradient(to right, ##f47321, ##e0456f);
+  background: -o-linear-gradient(to right, ##f47321, #f36c21);
+  background: -ms-linear-gradient(to right, ##f47321, #f36c21);
+  background: linear-gradient(to right, ##f47321, #f36c21);
+}
+.work-st .work-scon .step-box:after {
+  background: #f36c21;
+  background: -webkit-linear-gradient(to right, ##f47321, #f36c21);
+  background: -moz-linear-gradient(to right, ##f47321, #f36c21);
+  background: -o-linear-gradient(to right, ##f47321, #f36c21);
+  background: -ms-linear-gradient(to right, ##f47321, #f36c21);
+  background: linear-gradient(to right, ##f47321, #f36c21);
+}
+.work-st .work-scon .step-box:hover .numb span {
+  color: #f36c21;
+}
+.work-st .work-sss .ww-title {
+	text-align: center;
+	float: none;
+}
+.work-st .work-sss .ww-title h3 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+}
+.work-st .work-sss .ww-title h3 span {
+  font-family: 'Poppins', sans-serif;
+}
+.work-st .work-sss h4 {  
+  font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 42px;
+	margin-bottom: 15px;
+}
+.work-st .work-sss h4 span {
+	width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #FFF;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    display: inline-block;
+    font-size: 19px;
+    text-align: center;
+  font-family: 'Poppins', sans-serif;
+    float: left;
+	border: 1px solid #f36c21;
+	background: #FFF;
+	color: #f36c21;
+	margin-right: 7px;
+}
+.work-st .work-sss p {
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testt {
+  background-color: #1c1c1c;
+}
+.testt .right-s {
+  float: right;
+}
+.testt .right-s {
+  margin-top: 0;
+}
+.testt .right-s h4 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.testt .right-s h4 span {
+  font-family: 'Poppins', sans-serif;
+}
+.testt .right-s p {
+  font-weight: 400;
+  color: #ebebeb;
+  font-size: 13.5px;
+}
+.testt .test-cont {
+  float: left;
+}
+.testt .t-item .t-box {
+  background-color: #FFF;
+  padding: 40px 30px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+.testt .t-item .t-box .icon,
+.testt .t-item .t-box i {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.testt .t-item .t-box h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+}
+.testt .t-item .t-box h4 {
+  font-size: 13px;
+}
+.testt .t-item .t-box h4 span {
+  font-family: 'Poppins', sans-serif;
+}
+.testt .t-item .t-box p {
+  margin-top: 30px;
+  font-size: 13.5px;
+  font-weight: 400;
+  color: #555;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 11px;
+  height: 11px;
+  margin: 0 8px;
+  background: transparent !important;
+  border:2px solid #fff !important;
+}
+.owl-theme .owl-dots .owl-dot:focus {
+  outline: none;
+}
+.owl-theme .owl-dots .active span {
+  background: #fff !important;
+}
+.owl-carousel .owl-stage-outer {
+  direction: ltr !important;
+}
+.testt .t-item .t-box .icon, 
+.testt .t-item .t-box i {
+	color: #f36c21;
+}
+
+.wwu {
+	background: url('../img/bg-image-3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.wwu-overlay {
+    background: rgba(17,17,17,.7);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+.wwu .wwu-txt {
+    float: left;
+    text-align: left
+}
+.wwu .wwu-txt h2 {
+	font-size: 31px;
+	line-height: 38px;
+	color: #FFF;
+}
+.wwu .wwu-txt h2 span {
+	font-size: 33px;
+  font-family: 'Poppins', sans-serif;
+}
+.wwu .wwu-btn {
+	text-align: right;
+}
+.wwu .wwu-btn a {
+	border: 1px solid #f36c21;
+    padding: 12px 60px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+    float: right;
+    font-weight: bold;
+    background-color: #f36c21;
+    color: #FFF;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    display: inline-block;
+}
+.wwu .wwu-btn a:hover {
+	background: #FFF;
+	color: #f36c21;
+	border-color: #FFF;
+}
+
+/*---------------------------------------
+  SERVICES DETAIL RESPONSIVE STYLE                 
+-----------------------------------------*/
+@media (max-width: 991px) {
+	.serv-cont .ab-pic img {
+		width: 100%;
+	}
+	.serv-cont .ab-cont {
+	    padding-left: 15px;
+	    margin-top: 60px;
+	}
+	.work-st .work-scon {
+	    padding-left: 15px;
+	    margin-top: 60px;
+	}
+	.work-st .left-s {
+	    margin-top: 0;
+	}
+	.testt .right-s h4 {
+	    font-size: 35px;
+	    line-height: 40px;
+	}
+	.testt .test-cont {
+	    margin-top: 60px;
+	}
+	.testt .test-cc {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

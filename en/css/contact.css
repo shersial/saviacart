@@ -1,0 +1,108 @@
+.s-header {
+	height: 75vh;
+	background: url('../img/pages-pictures/contact-bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	overflow-x: hidden!important;
+}
+.s-header-shapee {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.s-header .middle-c {
+    top: 50%;
+}
+.s-header .middle-c .capt h1 {
+  font-family: 'Poppins', sans-serif;
+}
+.contact {
+	background: #FFF;
+}
+.contact .cont-title h3 {
+	color: #1c1c1c;
+}
+.contact .cont-title p {
+	color: #666;
+}
+.contact .cont-title .info li p {
+	color: #1c1c1c;
+}
+.contact .contact-form textarea,
+.contact .contact-form input {
+	background: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    color: #232323;
+}
+.contact .contact-form .button {
+	color: #fff;
+}
+.ppcontusmap #map {
+    height: 500px;
+    position: relative;
+}
+.contact-s {
+
+}
+.contact-s .send-dd {
+	-ms-box-shadow: 0px 0px 40px rgb(0 0 0 / 10%);
+	-o-box-shadow: 0px 0px 40px rgb(0 0 0 / 10%);
+	-moz-box-shadow: 0px 0px 40px rgb(0 0 0 / 10%);
+	-webkit-box-shadow: 0px 0px 40px rgb(0 0 0 / 10%);
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 10%);
+    padding: 60px;
+    text-align: center;
+}
+.contact-s .send-dd .send-img {
+	float: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.contact-s .send-dd .send-img img {
+	width: 130px;
+    height: 215px;
+}
+.contact-s .send-dd h2 {
+  font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    line-height: 32px;
+}
+.contact-s .send-dd #send-t {
+	color: #8CC152;
+}
+.contact-s .send-dd #send-f {
+	color: #E9573F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

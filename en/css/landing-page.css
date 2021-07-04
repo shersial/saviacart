@@ -1,0 +1,80 @@
+.fixed .navbar-nav>li { 
+	margin-top: 20px;
+    margin-bottom: 21px;
+}
+.navbar-collapse {
+    background-color: transparent;
+    border-bottom-width: 0;
+    box-shadow: none;
+}
+.s-header {
+    height: 100vh;
+}
+.vid h3 {
+	font-size: 40px;
+	margin-bottom: 90px;
+	line-height:45px;
+}
+.vid h3 span {
+  font-family: 'Poppins', sans-serif;
+	color: #f36c21;
+}
+.contact {
+	background: #1c1c1c;
+}
+.contact .cont-title h3 {
+	color: #FFF;
+}
+.contact .cont-title .info li p {
+	color: #FFF;
+}
+.contact .contact-form .button {
+    border-color: #f36c21;
+}
+#whats {
+	position: fixed;
+	left: 30px;
+	bottom: 30px;
+}
+#whats img {
+	width:60px;
+	height:60px;
+	animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+
+
+@media (max-width: 991px) {
+.navbar .navbar-nav>#opencart>a {
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+	.vid iframe {
+		width: 100%;
+	}
+	
+}
